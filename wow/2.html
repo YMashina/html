@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="2.css"/>
+    <meta charset="UTF-8">
+    <title>wow</title>
+</head>
+<body>
+<div class="base">
+    <div id="backgroundImg" class="wowbackground">
+        <div id="shadowImg" class="shadow">
+            <div id="characterImg" class="character">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="overall">
+        <div class="character-digest">
+            <div class="characterHeader">
+                <div class="allianceImg"></div>
+                <div class="nameDiv transitionable">Аредвен</div>
+            </div>
+            <div class="characterHeader-info">
+                <div class="info">
+                    <div class="achievements transitionable"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="achievements-svg" data-src="https://assets.worldofwarcraft.com/static/components/Icon/svg/achievement-shield.69931dc20a64225f093d504faf2afb34.svg#achievement-shield" xmlns:xlink="http://www.w3.org/1999/xlink" data-queryselectoralways-ignore=""><path class="ach-path transitionable" xmlns="http://www.w3.org/2000/svg" d="M51.492 3.677c-5.941 1.654-14.886 3.906-19.494 3.906-4.611 0-13.553-2.252-19.495-3.906-2.937-.815-5.875 1.255-5.875 4.144v34.684c0 1.336.657 2.597 1.778 3.415l20.792 15.176a4.765 4.765 0 002.8.904c.989 0 1.981-.3 2.805-.904L55.594 45.92c1.122-.818 1.778-2.08 1.778-3.415V7.823c-.002-2.888-2.942-4.961-5.88-4.146z"></path></svg>
+                        3265</div>
+                    <div class="ilvl transitionable"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="ilvl-svg" data-src="https://assets.worldofwarcraft.com/static/components/Icon/svg/swords.01e57e65afe77495544524c74b7cd100.svg#swords" xmlns:xlink="http://www.w3.org/1999/xlink" data-queryselectoralways-ignore=""><path class="ilvl-path transitionable" xmlns="http://www.w3.org/2000/svg" d="M13.593 18.962l-6.729 7.035c-.135.142-.061.383.128.417l3.932.683a.23.23 0 00.205-.068l3.428-3.584 7.684 7.93 3.927-4.106.346-.362 3.725-3.896-7.684-7.928 3.646-3.814a.252.252 0 00.066-.213l-.654-4.112a.232.232 0 00-.398-.133l-6.853 7.167L7.485 4.401V.428A.42.42 0 007.075 0H.791a.419.419 0 00-.409.428v6.571c0 .236.183.427.409.427h3.512l9.29 11.536zm27.505 15.599l-3.8 3.972-.24.251-3.958 4.139 18.652 19.411L61.562 64l-1.671-9.882-18.793-19.557zM63.209.017h-6.283a.418.418 0 00-.409.428v3.672L45.483 13.83l-6.728-7.034c-.135-.143-.366-.065-.397.132l-.654 4.111a.253.253 0 00.066.214l3.428 3.585L4.002 53.726 2.408 63.983l9.451-1.748 37.336-39.036 3.646 3.812a.23.23 0 00.205.069l3.931-.684c.188-.031.263-.274.128-.415l-6.854-7.166L59.41 7.442h3.799a.418.418 0 00.409-.428V.444a.418.418 0 00-.409-.427z" id="swords-2"></path></svg>
+                        211 УР. ПРЕДМЕТОВ</div>
+                    <div class="covenant-info">
+                        <div class="covenant"></div>
+                        <div class="covenant-renown transitionable">ИЗВЕСТНОСТЬ 32</div>
+                    </div>
+                </div>
+
+                <div class="characterHeader-details">
+                    <span>60</span>
+                    <span>Эльфийка Бездны</span>
+                    <span>Чернокнижница (Колдовство)</span>
+                    <span class="guild transitionable">❮Гильдия имени Бочокусича❯</span>
+                    <span>Гордунни</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu">
+            <a id="menuCharacter" class="menu-character menuItem active" onclick="menu(id)">Персонаж</a>
+            <a id="menuAchievements" class="menu-achievements menuItem" onclick="menu(id)">Достижения</a>
+            <a class="menu-collections menuItem">Коллекции</a>
+            <a id="menuDungeons" class="menu-dungeons menuItem" onclick="menu(id)">Подземелья и рейды</a>
+            <a class="menu-pvp menuItem">PVP</a>
+            <a class="menu-reputation menuItem">Репутация</a>
+        </div>
+
+        <div id="menuContent">
+            <div id='menuContentCharacter' class=" menuContentElement ">
+                <div  class="characterProfile">
+                    <div class="upper-gear">
+                        <div id="gearLeft" class="gear-left">
+
+                        </div>
+
+                        <div id="gearRight" class="gear-right">
+                        </div>
+                    </div>
+
+
+                    <div id="gearBottom" class="gear-bottom">
+                        <div class="gear-right">
+                            <div class="hand gear-item"><div class="gear-item-text"><span class="gear-item-desc">Безразмерные полуперчатки</span><span>200</span></div><img class="gear-item-img common-img" src="gear/helm.jpg"></div>
+                        </div>
+                        <div class="gear-left">
+                            <div class="amulet gear-item"><img class="gear-item-img epic-img" src="gear/amulet.jpg"><div class="gear-item-text"><span class="gear-item-desc epic">Амулет вечной зимы</span><span>200</span>
+                                <div class="tooltiptext">
+                                    <span class="tooltip-header epic">Амулет вечной зимы</span>
+                                    <span class="tooltipILVL">Уровень предмета: 200</span>
+                                    <span class="own-type">Становится персональным при получении</span>
+                                    <span class="unique">Уникальный использующийся предмет: Изготовленный легендарный предмет Темных Земель (1)</span>
+                                    <span class="part-and-material">
+                                <span class="part">Шея</span>
+                            </span>
+                                    <span class="usual-stats">
+                                <span class="1-stat">+60 к выносливости</span>
+                            </span>
+                                    <span class="additional-stats">
+                                <span class="1-stat-additional">+44 к скорости</span>
+                            <span class="1-stat-additional">+127 к искусности</span>
+                            </span>
+                                    <span class="effect">Использование: Околдовывает зверя, обитающего вне помещений в Темных Землях. Пораженная цель будет помогать вам в течение 5 мин. (Восстановление: 1 ч.)</span>
+                                    <span>Требуется 60-й уровень</span>
+
+                                    <span class="info">"Холодный ветер гудит в звеньях цепочки этого амулета."</span>
+                                    <span>
+                                <span>Цена продажи:</span>
+                                <span class="gold">38</span>
+                                <span class="silver">5</span>
+                                <span class="copper">87</span>
+                            </span>
+
+                                </div>
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id='menuContentAchievements' class="menuContentElement menuContentElementVisuallyHidden hidden" >
+                <div id="achievementsMenuId" class=" achievements-menu ">
+
+                </div>
+            </div>
+
+            <div id='menuContentDungeons' class="menuContentElement menuContentElementVisuallyHidden hidden dungeons-and-raids-menu">
+                <div class="shadowlands">
+                    <span class="shadowlands-span">Темные Земли</span>
+                    <div class="castleNathria">
+                        <div class="castleNathria-img"></div>
+                        <div class="castleNathria-info">
+                            <span class="castleNathria-name">Замок Нафрия</span>
+                            <span class="castleNathria-level">Level 60</span>
+                            <div class="raid-difficulties">
+                                <div class="LFR difficulty">
+                                    <div class="difficulty-name">спр</div>
+                                    <div class="raid-progress">
+
+                                        <div class="progressbar-content">3/10</div>
+                                        <div class="progress"></div>
+                                        <div class="progressbar"></div>
+                                    </div>
+
+                                </div>
+                                <div class="normal difficulty">
+                                    <div class="difficulty-name">Обычный</div>
+                                    <div class="raid-progress">
+                                        <div class="progressbar"></div>
+                                        <div class="progress"></div>
+                                        <div class="progressbar-content">10/10</div>
+                                    </div>
+                                </div>
+                                <div class="heroic difficulty">
+                                    <div class="difficulty-name">Героический</div>
+                                    <div class="raid-progress">
+                                        <div class="progressbar"></div>
+                                        <div class="progress"></div>
+                                        <div class="progressbar-content">10/10</div>
+                                    </div>
+                                </div>
+                                <div class="mythic difficulty">
+                                    <div class="difficulty-name">Эпохальный</div>
+                                    <div class="raid-progress">
+                                        <div class="progressbar"></div>
+                                        <div class="progress"></div>
+                                        <div class="progressbar-content">0/10</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<script src="wow2.js"></script>
+</body>
+</html>
